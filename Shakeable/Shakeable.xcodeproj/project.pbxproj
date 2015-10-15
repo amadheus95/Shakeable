@@ -22,6 +22,12 @@
 		79F071891BD0289E00646DD5 /* BallsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F071861BD0289E00646DD5 /* BallsCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A721F8D61BD02DA900AC1554 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8D51BD02DA900AC1554 /* GameScene.swift */; settings = {ASSET_TAGS = (); }; };
 		A721F8D91BD02E3100AC1554 /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8D81BD02E3100AC1554 /* Physics.swift */; settings = {ASSET_TAGS = (); }; };
+		A721F8DB1BD02EEC00AC1554 /* Glass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8DA1BD02EEC00AC1554 /* Glass.swift */; settings = {ASSET_TAGS = (); }; };
+		A721F8DD1BD02F2600AC1554 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8DC1BD02F2600AC1554 /* Random.swift */; settings = {ASSET_TAGS = (); }; };
+		A721F8DF1BD02F4600AC1554 /* Balls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8DE1BD02F4600AC1554 /* Balls.swift */; settings = {ASSET_TAGS = (); }; };
+		A721F8E11BD0300100AC1554 /* BallTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8E01BD0300100AC1554 /* BallTypes.swift */; settings = {ASSET_TAGS = (); }; };
+		A721F8E31BD0304900AC1554 /* BallColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8E21BD0304900AC1554 /* BallColors.swift */; settings = {ASSET_TAGS = (); }; };
+		A721F8E51BD0339E00AC1554 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A721F8E41BD0339E00AC1554 /* GameScene.sks */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,12 @@
 		79F071861BD0289E00646DD5 /* BallsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallsCollectionViewController.swift; sourceTree = "<group>"; };
 		A721F8D51BD02DA900AC1554 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A721F8D81BD02E3100AC1554 /* Physics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		A721F8DA1BD02EEC00AC1554 /* Glass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glass.swift; sourceTree = "<group>"; };
+		A721F8DC1BD02F2600AC1554 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		A721F8DE1BD02F4600AC1554 /* Balls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balls.swift; sourceTree = "<group>"; };
+		A721F8E01BD0300100AC1554 /* BallTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallTypes.swift; sourceTree = "<group>"; };
+		A721F8E21BD0304900AC1554 /* BallColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallColors.swift; sourceTree = "<group>"; };
+		A721F8E41BD0339E00AC1554 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../../MagicBall/MagicBall/MagicBall/GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +206,12 @@
 			isa = PBXGroup;
 			children = (
 				A721F8D81BD02E3100AC1554 /* Physics.swift */,
+				A721F8DA1BD02EEC00AC1554 /* Glass.swift */,
+				A721F8DC1BD02F2600AC1554 /* Random.swift */,
+				A721F8DE1BD02F4600AC1554 /* Balls.swift */,
+				A721F8E41BD0339E00AC1554 /* GameScene.sks */,
+				A721F8E01BD0300100AC1554 /* BallTypes.swift */,
+				A721F8E21BD0304900AC1554 /* BallColors.swift */,
 			);
 			name = Utilitarios;
 			sourceTree = "<group>";
@@ -301,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A721F8E51BD0339E00AC1554 /* GameScene.sks in Resources */,
 				5E13903D1BCFFF3A006817A1 /* LaunchScreen.storyboard in Resources */,
 				5E13903A1BCFFF3A006817A1 /* Assets.xcassets in Resources */,
 				5E1390351BCFFF3A006817A1 /* Main.storyboard in Resources */,
@@ -331,10 +350,15 @@
 				79672AF91BD02A8900493E67 /* RespostasGenericas.swift in Sources */,
 				5E1390301BCFFF3A006817A1 /* AppDelegate.swift in Sources */,
 				79672AF31BD02A7E00493E67 /* RespostasTennis.swift in Sources */,
+				A721F8E31BD0304900AC1554 /* BallColors.swift in Sources */,
+				A721F8DB1BD02EEC00AC1554 /* Glass.swift in Sources */,
+				A721F8E11BD0300100AC1554 /* BallTypes.swift in Sources */,
 				A721F8D61BD02DA900AC1554 /* GameScene.swift in Sources */,
 				79672AF71BD02A8900493E67 /* Respostas8Ball.swift in Sources */,
 				79F071881BD0289E00646DD5 /* GameViewController.swift in Sources */,
 				5E1390381BCFFF3A006817A1 /* Shakeable.xcdatamodeld in Sources */,
+				A721F8DF1BD02F4600AC1554 /* Balls.swift in Sources */,
+				A721F8DD1BD02F2600AC1554 /* Random.swift in Sources */,
 				A721F8D91BD02E3100AC1554 /* Physics.swift in Sources */,
 				79F071891BD0289E00646DD5 /* BallsCollectionViewController.swift in Sources */,
 				79672AF81BD02A8900493E67 /* BasketballAnswers.swift in Sources */,
