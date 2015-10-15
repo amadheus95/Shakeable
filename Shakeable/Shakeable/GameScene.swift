@@ -6,12 +6,12 @@
 //  Copyright © 2015 BEPiD. All rights reserved.
 //
 
-import UIKit
 import Foundation
 import SpriteKit
+import UIKit
 
-class GameScene: SKScene {
-
+class GameScene: SKScene
+{
     var index       : Int?
     var text        : Bool?
     var answerBox   : SKSpriteNode?
@@ -126,4 +126,6 @@ class GameScene: SKScene {
         ballsButton!.name = "points"
         ballsButton!.zPosition = 908
     }
+    
 }
+
