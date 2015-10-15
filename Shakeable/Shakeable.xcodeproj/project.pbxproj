@@ -197,6 +197,7 @@
 		A721F8D41BD02D7F00AC1554 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				A721F8E41BD0339E00AC1554 /* GameScene.sks */,
 				A721F8D51BD02DA900AC1554 /* GameScene.swift */,
 			);
 			name = Scene;
@@ -209,7 +210,6 @@
 				A721F8DA1BD02EEC00AC1554 /* Glass.swift */,
 				A721F8DC1BD02F2600AC1554 /* Random.swift */,
 				A721F8DE1BD02F4600AC1554 /* Balls.swift */,
-				A721F8E41BD0339E00AC1554 /* GameScene.sks */,
 				A721F8E01BD0300100AC1554 /* BallTypes.swift */,
 				A721F8E21BD0304900AC1554 /* BallColors.swift */,
 			);
