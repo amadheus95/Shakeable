@@ -15,6 +15,7 @@
 		5E13903D1BCFFF3A006817A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E13903B1BCFFF3A006817A1 /* LaunchScreen.storyboard */; };
 		5E1390481BCFFF3A006817A1 /* ShakeableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1390471BCFFF3A006817A1 /* ShakeableTests.swift */; };
 		5E1390531BCFFF3A006817A1 /* ShakeableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1390521BCFFF3A006817A1 /* ShakeableUITests.swift */; };
+		A721F8D21BD02AE200AC1554 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A721F8D11BD02AE200AC1554 /* GameScene.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5E13904E1BCFFF3A006817A1 /* ShakeableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1390521BCFFF3A006817A1 /* ShakeableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeableUITests.swift; sourceTree = "<group>"; };
 		5E1390541BCFFF3A006817A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A721F8D11BD02AE200AC1554 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 		5E13902E1BCFFF3A006817A1 /* Shakeable */ = {
 			isa = PBXGroup;
 			children = (
+				A721F8D31BD02B8D00AC1554 /* Utilitarios */,
+				A721F8D01BD02A7100AC1554 /* Scene */,
 				5E13902F1BCFFF3A006817A1 /* AppDelegate.swift */,
 				5E1390311BCFFF3A006817A1 /* ViewController.swift */,
 				5E1390331BCFFF3A006817A1 /* Main.storyboard */,
@@ -126,6 +130,21 @@
 				5E1390541BCFFF3A006817A1 /* Info.plist */,
 			);
 			path = ShakeableUITests;
+			sourceTree = "<group>";
+		};
+		A721F8D01BD02A7100AC1554 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				A721F8D11BD02AE200AC1554 /* GameScene.swift */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		A721F8D31BD02B8D00AC1554 /* Utilitarios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilitarios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +279,7 @@
 			files = (
 				5E1390321BCFFF3A006817A1 /* ViewController.swift in Sources */,
 				5E1390301BCFFF3A006817A1 /* AppDelegate.swift in Sources */,
+				A721F8D21BD02AE200AC1554 /* GameScene.swift in Sources */,
 				5E1390381BCFFF3A006817A1 /* Shakeable.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +505,7 @@
 				5E1390591BCFFF3A006817A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E13905A1BCFFF3A006817A1 /* Build configuration list for PBXNativeTarget "ShakeableTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +514,7 @@
 				5E13905C1BCFFF3A006817A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E13905D1BCFFF3A006817A1 /* Build configuration list for PBXNativeTarget "ShakeableUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +523,7 @@
 				5E13905F1BCFFF3A006817A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
