@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shakeable" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="Shakeable" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,7 +21,7 @@
                                 <animations/>
                                 <state key="normal" title="Button" image="basket"/>
                                 <connections>
-                                    <segue destination="RkT-CF-5CZ" kind="show" id="RRf-Co-Pr5"/>
+                                    <segue destination="4F8-4k-dwa" kind="show" id="3Ju-hK-bkg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -34,25 +34,53 @@
             </objects>
             <point key="canvasLocation" x="429.5" y="217.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="FwR-xx-Gr8">
+        <!--Balls Collection View Controller-->
+        <scene sceneID="u9M-LL-vKL">
             <objects>
-                <viewController id="RkT-CF-5CZ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="btQ-0g-V69"/>
-                        <viewControllerLayoutGuide type="bottom" id="fkj-5T-AAz"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="BPu-tz-SoL">
+                <collectionViewController storyboardIdentifier="choose-ball" id="4F8-4k-dwa" customClass="BallsCollectionViewController" customModule="MagicBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="KOZ-rJ-hKj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7fW-Mz-cDc">
+                            <size key="itemSize" width="158" height="425"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottomLeft" reuseIdentifier="cell" id="EWH-C3-Ys0">
+                                <rect key="frame" x="0.0" y="121" width="158" height="425"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="158" height="425"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CQN-oX-8bY">
+                                            <rect key="frame" x="19" y="121" width="121" height="184"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="184" id="52u-Ug-VdI"/>
+                                                <constraint firstAttribute="width" constant="121" id="e5u-7j-jLP"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="4F8-4k-dwa" id="VhD-0d-iU9"/>
+                            <outlet property="delegate" destination="4F8-4k-dwa" id="PHj-Jr-OCG"/>
+                        </connections>
+                    </collectionView>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4b2-On-9zG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KNf-Aq-0rD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="939.5" y="217.5"/>
+            <point key="canvasLocation" x="1006.5" y="217.5"/>
         </scene>
     </scenes>
     <resources>
