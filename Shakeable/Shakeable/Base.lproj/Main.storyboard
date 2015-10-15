@@ -37,7 +37,7 @@
         <!--Balls Collection View Controller-->
         <scene sceneID="u9M-LL-vKL">
             <objects>
-                <collectionViewController storyboardIdentifier="choose-ball" id="4F8-4k-dwa" customClass="BallsCollectionViewController" customModule="MagicBall" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="choose-ball" id="4F8-4k-dwa" customClass="BallsCollectionViewController" customModule="Shakeable" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="KOZ-rJ-hKj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,6 +69,9 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <animations/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="vai" id="UTa-nm-Yhq"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
