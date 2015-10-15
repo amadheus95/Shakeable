@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5E1390301BCFFF3A006817A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E13902F1BCFFF3A006817A1 /* AppDelegate.swift */; };
-		5E1390321BCFFF3A006817A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1390311BCFFF3A006817A1 /* ViewController.swift */; };
 		5E1390351BCFFF3A006817A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1390331BCFFF3A006817A1 /* Main.storyboard */; };
 		5E1390381BCFFF3A006817A1 /* Shakeable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E1390361BCFFF3A006817A1 /* Shakeable.xcdatamodeld */; };
 		5E13903A1BCFFF3A006817A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1390391BCFFF3A006817A1 /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		5E13902C1BCFFF3A006817A1 /* Shakeable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shakeable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E13902F1BCFFF3A006817A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E1390311BCFFF3A006817A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E1390341BCFFF3A006817A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E1390371BCFFF3A006817A1 /* Shakeable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shakeable.xcdatamodel; sourceTree = "<group>"; };
 		5E1390391BCFFF3A006817A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -277,10 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1390321BCFFF3A006817A1 /* ViewController.swift in Sources */,
+				79672AF91BD02A8900493E67 /* RespostasGenericas.swift in Sources */,
 				5E1390301BCFFF3A006817A1 /* AppDelegate.swift in Sources */,
 				A721F8D21BD02AE200AC1554 /* GameScene.swift in Sources */,
 				5E1390381BCFFF3A006817A1 /* Shakeable.xcdatamodeld in Sources */,
+				79F071891BD0289E00646DD5 /* BallsCollectionViewController.swift in Sources */,
+				79672AF81BD02A8900493E67 /* BasketballAnswers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
